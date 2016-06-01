@@ -1,0 +1,30 @@
+{
+  "name": "koa-postcss-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dnxbf321@github.com/dnxbf321/koa-postcss-middleware.git"
+  },
+  "author": "Jason Deng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnxbf321/koa-postcss-middleware/issues"
+  },
+  "homepage": "https://github.com/dnxbf321/koa-postcss-middleware#readme",
+  "dependencies": {
+    "autoprefixer": "^6.3.6",
+    "extend": "^3.0.0",
+    "postcss": "^5.0.19"
+  },
+  "devDependencies": {
+    "koa": "^1.2.0"
+  }
+}
