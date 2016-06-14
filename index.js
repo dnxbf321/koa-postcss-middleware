@@ -10,8 +10,6 @@ function middleware(options) {
   options = extend(true, {
     src: process.cwd,
     publicPath: '',
-    extension: '.scss',
-    outputStyle: 'compressed',
     autoprefixer: {
       browsers: ['last 2 versions', '> 5%', 'safari >= 5', 'ie >= 8', 'opera >= 12', 'Firefox ESR', 'iOS >= 6', 'android >= 4']
     }
