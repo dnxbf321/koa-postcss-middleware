@@ -46,6 +46,9 @@ function middleware(options) {
       .then(function(result) {
         ctx.res.end(result.css)
       })
+      .catch(function(err) {
+        console.error(err)
+      })
   }
 }
 
